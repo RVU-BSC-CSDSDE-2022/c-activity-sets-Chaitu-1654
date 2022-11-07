@@ -1,4 +1,4 @@
-#include <stdio.h>
+gcc#include <stdio.h>
 int input();
 int compare(int a, int b, int c);
 void output(int a, int b, int c, int largest);
@@ -27,7 +27,7 @@ int compare(int a,int b,int c){
       else{return (c);}
     }
     else
-    {
+{
      if(b>c){return (b);}
      else{return (c);}
     }

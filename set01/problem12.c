@@ -27,9 +27,9 @@ int get_n(){
 }
 
 Complex input_complex(){
-  Complex a;
+ Complex a;
   printf("Enter a and b where a + ib is the first complex number.\n");
-  scanf("%d%d", &a.real, &a.img);
+   scanf("%d%d", &a.real, &a.img);
   return(a);
 }
 
@@ -51,9 +51,10 @@ Complex add_n_complex(int n, Complex c[n]){
   int i;
   Complex sum = {0,0};
   for(i = 0;i<n;i++){
- sum = add(sum,c[i]);
+    sum = add(sum,c[i]);
   }
 }
+
 
 void output(int n, Complex c[n], Complex result){
   int i;

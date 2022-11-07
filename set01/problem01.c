@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main(){
-printf("Chaitanya.N");    
-return 0;   
-}
+
+int main(void) {
+  printf("spoorthy\n");
+  return 0;
+  }

@@ -1,9 +1,9 @@
-#include <stdio.h>    
-int main(){ 
-  int a,b, sum;
-  a=100, b=200;
+#include <stdio.h>
+
+int main (void) {
+  int a, b,sum;
+  a=2 ,b=4;
   sum=a+b;
-  printf("%d %d %d", sum,a,b);
-printf("Chaitanya.N");    
-return 0;   
-}  
+  printf("%d %d %d ",sum ,a ,b);
+  return 0;
+}

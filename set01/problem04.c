@@ -1,11 +1,20 @@
-#include <stdio.h> 
-int sum_func( int x,int y);
+#include <stdio.h>
+void change(int *x, int*y,int *sum);
 
 int main(void) {
   int x,y,sum;
-  printf("Enter two integers: ");
-  scanf("%d %d", &x, &y);
-  sum = x + y;
-  printf("%d + %d = %d", x, y, sum);
-return 0;
+  printf("Enter a first number");
+  scanf("%d",&x);
+  printf("Enter a second number");
+  scanf("%d",&y);
+  return 0;
+}
+
+
+
+void change(int *x, int *y,int *sum);
+{
+   sum=x+y
+   return *sum;  
+   
 }
