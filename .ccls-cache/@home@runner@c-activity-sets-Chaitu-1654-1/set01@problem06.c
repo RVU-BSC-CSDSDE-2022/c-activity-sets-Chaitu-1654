@@ -1,4 +1,4 @@
-+#include <stdio.h>
+#include <stdio.h>
 int import();
 void compare(int a, int b, int c, int *largest);
 void output(int a, int b, int c, int largest);
@@ -34,5 +34,5 @@ void compare(int a,int b,int c,int *largest){
 }
 
 void output(int a, int b, int c, int largest){
-  printf("the largest of %d,%d and %d is %d" ,a,b,c,largest); 
+  printf("the largest of %d,%d and %d is %d" ,a,b,c,largest);
 }
